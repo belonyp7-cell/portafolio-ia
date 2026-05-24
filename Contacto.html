@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Conéctemos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="nav-btn">Inicio</a></li>
+            <li><a href="Historia.html" class="nav-btn">IA</a></li>
+            <li><a href="Proyectos.html" class="nav-btn">Proyectos</a></li>
+            <li><a href="Contacto.html" class="nav-btn active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main class="container contact-page">
+        <section class="card form-container">
+            <h1>Contáctame</h1>
+            <p>
+                Actualmente me encuentro cursando mi primer año de informática en este ciclo 2026. Estoy totalmente abierto a colaborar en proyectos académicos de desarrollo web frontend, integrar grupos de estudio o recibir sugerencias que me ayuden a mejorar mis habilidades técnicas a lo largo de los próximos 4 años de carrera. Si tienes alguna consulta sobre este portafolio o te interesa mi perfil en formación, no dudes en escribirme.
+            </p>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" placeholder="Ej. juan.perez@email.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto:</label>
+                    <input type="text" id="asunto" name="asunto" placeholder="Motivo de tu mensaje" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <aside class="card sidebar-info">
+            <h2>Datos de contacto alternativos</h2>
+            <div class="info-item">
+                <strong>Correo Institucional:</strong>
+                <p><a href="mailto:Pjulberus@pregrado.ubo.cl">Pjulberus@pregrado.ubo.cl</a></p>
+            </div>
+            <div class="info-item">
+                <strong>Ubicación:</strong>
+                <p>Santiago, Chile (Modalidad Presencial / Remota)</p>
+            </div>
+            <div class="info-item">
+                <strong>Redes Profesionales:</strong>
+                <p><a href="https://www.linkedin.com/in/pierre" target="_blank" class="link-glow">LinkedIn de Estudiante</a></p>
+                <p><a href="#" target="_blank" class="link-glow">GitHub de Código</a></p>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
